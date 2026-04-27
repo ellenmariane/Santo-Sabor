@@ -80,7 +80,7 @@ nav ul {
   background: linear-gradient(90deg, var(--teal-mid), var(--blue-mid));
   color: white;
   border-radius: 10px;
-  width: 120px;
+  width: 200px;
   border: none;
   height: 40px;
   cursor: pointer;
@@ -113,7 +113,7 @@ nav ul {
   padding: 10px 20px;
   border-radius: 10px;
   cursor: pointer;
- width: 120px;
+  width: 120px;
 }
 .btn-categoria{
   background-color: white;
@@ -135,7 +135,7 @@ nav ul {
 .btn-categoria:hover {
    transform: translateY(-10px);
 }
-.btn-enviar{
+#btn-enviar{
   background-color: white;
   color:#2e8b7a; 
   border: solid 2px transparent; 
@@ -252,6 +252,7 @@ img {
   font-family: 'Cormorant Garamond', serif;
   font-size: 50px;
   font-weight: 400;
+  width: 100%;
   color: var(--teal-deep); 
 }
 .subtitulo{
@@ -355,28 +356,30 @@ img {
 
 
 .contato {
+  display: flex;
   background-color: var(--cream);
   width: 100%;
-  height: 600px;
- display: flex;
+  height: 400px;
  justify-content: center;
-
 }
 .container-contato{
-  margin-top: 50px;
-background-color: var(--teal-pale);
-width: 60%;
 
-padding: 20px;
-  
+
 }
+.ca{
+ height: 160px;
+ margin-top: 100px;
 
+}
 .footer {
   background: linear-gradient(135deg, var(--teal-deep), #0f2e2a);
   color: white;
   padding: 60px 80px 20px;
 }
-
+.but{
+  display: flex;
+ justify-content: space-around;
+}
 
 .footer-container {
   display: grid;
@@ -460,4 +463,8 @@ padding: 20px;
   justify-content: space-between;
   color: #a7c9c1;
   font-size: 14px;
+}
+
+.btn-contato{
+  
 }
