@@ -467,18 +467,43 @@ img {
 
 .card {
   background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(10px);
-
+  backdrop-filter: blur(5px);
+ display: flex;
+  justify-content: space-between;
   border-radius: 20px;
   padding: 25px;
-  width: 500px;
-
+  width: 90%;
+ height: 150px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.08);
   text-align: center;
 
   transition: 0.3s;
 }
-
+.separado{
+  display: flex;
+  flex-wrap:column;
+  align-items: center;
+  justify-content: center;
+  
+  width: 400px;
+}
+.icone{
+  background-color: var(--rosa-pastel);
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inf{
+  text-align: justify;
+  margin-left: 20px;
+}
+#ic{
+  width: 40px;
+  height: 40px;
+}
 .card:hover {
   transform: translateY(-5px);
 }
