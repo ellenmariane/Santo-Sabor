@@ -29,9 +29,7 @@ Este projeto foi desenvolvido com o objetivo de:
 Praticar desenvolvimento front-end
 Criar uma solução real para um negócio familiar
 Melhorar habilidades em organização de código e design de interfaces
-📷 Preview
 
-(adicione aqui prints do projeto depois — isso faz MUITA diferença)
 
 -Como executar o projeto
 Clone o repositório:
