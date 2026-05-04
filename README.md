@@ -35,7 +35,7 @@ Melhorar habilidades em organização de código e design de interfaces
 
 -Como executar o projeto
 Clone o repositório:
-git clone https://github.com/seu-usuario/nome-do-repo.git
+git clone https://github.com/ellenmariane/Santo-Sabor.git
 
 
 - Próximas melhorias
